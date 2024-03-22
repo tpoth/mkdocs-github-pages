@@ -1,4 +1,6 @@
 site_name: MKDocs @ GH Pages
+repo_url: https://github.com/tpoth/mkdocs-github-pages
+edit_uri: edit/main/docs/
 theme:
   name: material
   features:
@@ -8,6 +10,7 @@ theme:
     - toc.integrate
     - search.suggest
     - search.highlight
+    - content.action.edit
     - content.tabs.link
     - content.code.annotate
     - content.code.copy
@@ -15,16 +18,16 @@ theme:
   palette:
     - scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/brightness-7
         name: Switch to dark mode
-      primary: teal
-      accent: purple
+      primary: blue grey
+      accent: indigo
     - scheme: slate
       toggle:
-        icon: material/toggle-switch
+        icon: material/brightness-4
         name: Switch to light mode
-      primary: teal
-      accent: lime      
+      primary: blue grey
+      accent: indigo
 extra: 
   social:
     - icon: fontawesome/brands/github
